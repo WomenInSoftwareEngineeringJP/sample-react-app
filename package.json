@@ -1,5 +1,6 @@
 {
-  "name": "app",
+  "name": "sample-react-app",
+  "homepage": "https://WWCodeTokyo.github.io/sample-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint 'src/**/*.{js,jsx,cjs}'"
+    "lint": "eslint 'src/**/*.{js,jsx,cjs}'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -28,6 +31,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "gh-pages": "^5.0.0",
     "vite": "^4.0.0"
   }
 }

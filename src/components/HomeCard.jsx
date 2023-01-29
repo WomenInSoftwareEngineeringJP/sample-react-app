@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Button from '@mui/material/Button'
 import Card from '@mui/material/Card'
+import Divider from '@mui/material/Divider'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 import reactLogo from '../assets/react.svg'
@@ -46,6 +47,16 @@ export default function HomeCard() {
 
         <Typography variant="body2">
           Click on the Vite and React logos to learn more
+        </Typography>
+
+        <Divider />
+
+        <Typography variant="h2">
+          GitHub Pages
+        </Typography>
+
+        <Typography variant="body1">
+          This page is deployed on GitHub Pages
         </Typography>
       </Stack>
     </Card>
