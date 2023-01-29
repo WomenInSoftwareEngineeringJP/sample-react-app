@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Button from '@mui/material/Button'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
@@ -17,11 +18,11 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button type="button" onClick={() => setCount((counter) => counter + 1)}>
+        <Button variant="contained" onClick={() => setCount((counter) => counter + 1)}>
           count is
           {' '}
           {count}
-        </button>
+        </Button>
         <p>
           Edit
           {' '}

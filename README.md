@@ -4,16 +4,15 @@ Here's a basic React App to help you build a website quickly
 
 It includes:
 - [Vite](https://vitejs.dev/) for building
-- TODO MUI
+- [MUI](https://mui.com/)
 - TODO Testing
 - TODO GH Pages setup
-- TODO Eslint basic
+- [ESLint](https://eslint.org/)
 - TODO Routing?
 - TODO TypeScript branch?
 
 ## Prerequisites
 - Node 18
-- Yarn
 
 ## How to run it locally
 
