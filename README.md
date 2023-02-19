@@ -7,11 +7,9 @@ Here's a basic React App to help you build a website quickly
 It includes:
 - [Vite](https://vitejs.dev/) for building
 - [MUI](https://mui.com/)
-- TODO Testing
+- [Vitest](https://vitest.dev/)
 - GH Pages setup (in progress)
 - [ESLint](https://eslint.org/)
-- TODO Routing?
-- TODO TypeScript branch?
 
 ## Prerequisites
 - Node 18
