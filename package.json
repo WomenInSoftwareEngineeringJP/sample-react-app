@@ -9,9 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint 'src/**/*.{js,jsx,cjs}'",
-    "test": "vitest",
-    "predeploy": "npm run build && cd dist && git commit -a -m 'gh pages'",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "test": "vitest"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
