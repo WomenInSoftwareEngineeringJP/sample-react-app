@@ -7,9 +7,9 @@ import Typography from '@mui/material/Typography'
 import reactLogo from '../assets/react.svg'
 import './HomeCard.css'
 
-const [count, setCount] = useState(0)
-
 export default function HomeCard() {
+  const [count, setCount] = useState(0)
+
   return (
     <Card>
       <Stack
