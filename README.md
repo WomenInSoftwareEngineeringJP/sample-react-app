@@ -6,7 +6,6 @@ It includes:
 - [Vite](https://vitejs.dev/) for building
 - [MUI](https://mui.com/)
 - [Vitest](https://vitest.dev/)
-- GH Pages setup (in progress)
 - [ESLint](https://eslint.org/)
 
 ## Prerequisites
