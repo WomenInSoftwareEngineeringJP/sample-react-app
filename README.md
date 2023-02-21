@@ -39,7 +39,10 @@ npm run test
 ### How to deploy your website to GithubPages
 
 1. In `vite.config.ts` file add your repository name in `base`.
-2. In `package.json` edit `website` adding your GitHub handle and repository name.
+```ts
+  base: '/sample-react-app/',
+```
+2. In `package.json` edit `homepage` adding your GitHub username and repository name.
 3. Build your website by running `npm run build` command.
 4. Deploy to GitHub pages by running `npm run deploy` command.
 5. Check your website on the url you added in `website`. It may take a few minutes to deploy.
