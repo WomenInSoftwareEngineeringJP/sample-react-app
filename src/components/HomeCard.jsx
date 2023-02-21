@@ -51,13 +51,6 @@ export default function HomeCard() {
 
         <Divider />
 
-        <Typography variant="h2">
-          GitHub Pages
-        </Typography>
-
-        <Typography variant="body1">
-          This page is deployed on GitHub Pages
-        </Typography>
       </Stack>
     </Card>
   )
