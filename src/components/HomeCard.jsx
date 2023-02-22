@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import Button from '@mui/material/Button'
-import Card from '@mui/material/Card'
-import Divider from '@mui/material/Divider'
-import Stack from '@mui/material/Stack'
-import Typography from '@mui/material/Typography'
-import reactLogo from '../assets/react.svg'
-import './HomeCard.css'
+import { useState } from "react";
+import Button from "@mui/material/Button";
+import Card from "@mui/material/Card";
+import Divider from "@mui/material/Divider";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
+import reactLogo from "../assets/react.svg";
+import "./HomeCard.css";
 
 export default function HomeCard() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <Card>
@@ -20,7 +20,11 @@ export default function HomeCard() {
       >
         <Stack direction="row">
           <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-            <img src="/sample-react-app/vite.svg" className="logo" alt="Vite logo" />
+            <img
+              src="/sample-react-app/vite.svg"
+              className="logo"
+              alt="Vite logo"
+            />
           </a>
           <a href="https://reactjs.org" target="_blank" rel="noreferrer">
             <img src={reactLogo} className="logo react" alt="React logo" />
@@ -28,21 +32,15 @@ export default function HomeCard() {
         </Stack>
         <Typography variant="h1">Vite + React</Typography>
         <Button
-          variant="contained"
-          sx={{ width: '150px' }}
+          variant="text"
+          sx={{ width: "150px" }}
           onClick={() => setCount((counter) => counter + 1)}
         >
-          count is
-          {' '}
-          {count}
+          count is {count}
         </Button>
 
         <Typography variant="body1">
-          Edit
-          {' '}
-          <code>src/App.jsx</code>
-          {' '}
-          and save to test HMR
+          Edit <code>src/App.jsx</code> and save to test HMR
         </Typography>
 
         <Typography variant="body2">
@@ -50,8 +48,7 @@ export default function HomeCard() {
         </Typography>
 
         <Divider />
-
       </Stack>
     </Card>
-  )
+  );
 }
